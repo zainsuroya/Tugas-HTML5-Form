@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registrasion Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- 
+  TUGAS MEMBUAT FORM
+  NAMA  :  NUNIK ZAIN SUROYA
+  NIM   :  0110219007
+   -->
+
+  <form>
+    <h1>Student Registrasion Form</h1>
+    <table>
+      <tr>
+        <td colspan="2"></td>
+        <td class="label">DATE</td>
+        <td class="input"><input type="date" name="date"></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="judul">PERSONAL INFORMATION</td>
+      </tr>
+      <tr>
+        <td class="label">NAME</td>
+        <td class="input" colspan="3"><input type="text" name="name"></td>
+      </tr>
+      <tr>
+        <td class="label">DATE OF BIRTH</td>
+        <td class="input" colspan="3"><input type="text" name="birth"></td>
+      </tr>
+      <tr>
+        <td colspan="4" class="judul">CONTACT INFORMATION</td>
+      </tr>
+      <tr>
+        <td class="label">ADDRESS</td>
+        <td class="input" colspan="3"><textarea name="address"></textarea></td>
+      </tr>
+      <tr>
+        <td class="label">CITY</td>
+        <td class="input">
+          <select name="city">
+            <option>China</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>Indonesia</option>
+            <option>Brazil</option>
+          </select>
+        </td>
+        <td class="label">PROVINCE/STATE</td>
+        <td class="input"><input type="text" name="state"></td>
+      </tr>
+      <tr>
+        <td class="label">ZIP CODE</td>
+        <td class="input"><input type="text" name="zipcode"></td>
+        <td class="label">COUNTRY</td>
+        <td class="input"><input type="text" name="country"></td>
+      </tr>
+      <tr>
+        <td class="label">PHONE</td>
+        <td class="input"><input type="text" name="phone"></td>
+        <td class="label">EMAIL</td>
+        <td class="input"><input type="text" name="email"></td>
+      </tr>
+      <tr>
+        <td class="label">MEMBERSHIP TYPE</td>
+        <td class="input" colspan="3">
+          <div class="radio"> 
+            <label>
+              <input type="radio" name="type" value="Regular">
+              Regular
+            </label>
+            <label>
+              <input type="radio" name="type" value="Premium">
+              Premium
+            </label>
+            <label>
+              <input type="radio" name="type" value="VIP">
+              VIP
+            </label>
+          </div>  
+        </td>
+      </tr>
+      <tr>
+        <td colspan="4" class="judul">COURSE INFORMATION</td>
+      </tr>
+      <tr>
+        <td class="label">COURSE NAME</td>
+        <td class="input" colspan="3"><input type="text" name="course"></td>
+      </tr>
+      <tr>
+        <td class="label">PAYMENT DETAILS</td>
+        <td class="input" colspan="3">
+          <div class="radio"> 
+            <label>
+              <input type="radio" name="payment" value="Cash">
+              Cash
+            </label>
+            <label>
+              <input type="radio" name="payment" value="Cheque">
+              Cheque
+            </label>
+            <label>
+              <input type="radio" name="payment" value="Credit Card">
+              Credit Card
+            </label>
+          </div>  
+        </td>
+      </tr>
+      <tr>
+        <td class="label">COMMENTS</td>
+        <td class="input" colspan="3"><input type="text" name="comments"></td>
+      </tr>
+      <tr>
+        <td colspan="4">
+          <button type="submit">SUBMIT</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
